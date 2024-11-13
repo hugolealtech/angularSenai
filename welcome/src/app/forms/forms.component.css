@@ -1,0 +1,38 @@
+/* welcome.component.css */
+.form-container {
+    text-align: center;
+    background-color: #f3f4f6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+  
+  }
+  
+  .form-container h2 {
+    font-size: 1.8rem;
+    color: #4a90e2;
+  }
+  
+  .form-container p {
+    color: #333;
+    font-size: 1.1rem;
+  } 
+
+  .body-form{
+
+    width:100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+   
+  }
+
+  #form-section{
+
+    width:50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }

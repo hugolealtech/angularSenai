@@ -1,0 +1,30 @@
+/* welcome.component.css */
+.botao-container {
+    text-align: center;
+    background-color: #f3f4f6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+  
+  }
+  
+  .botao-container h2 {
+    font-size: 1.8rem;
+    color: #4a90e2;
+  }
+  
+  .botao-container p {
+    color: #333;
+    font-size: 1.1rem;
+  } 
+  .botao-container button{
+    background-color: #4a90e2;
+    color: white;
+    height:45px;
+    border-radius:12px;
+    border: none;
+  }
+  .botao-container a{
+    text-decoration: none;
+  }
