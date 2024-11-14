@@ -1,0 +1,27 @@
+/* header.component.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #434cccb4;
+    color: #fff;
+  }
+  
+  .logo img {
+    max-height: 50px;
+    border-radius: 100%;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #ffdd57;
+  }
+  

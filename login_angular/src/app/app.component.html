@@ -1,0 +1,5 @@
+<h1>{{title}}</h1>
+<app-login (loginSucesso)="mostrarBoasVindas()"></app-login>
+<div class="modal-backdrop" *ngIf="mostrarModal"></div>
+<app-modal-boas-vindas *ngIf="mostrarModal" (fechar)="fecharModal()"></app-modal-boas-vindas>
+
