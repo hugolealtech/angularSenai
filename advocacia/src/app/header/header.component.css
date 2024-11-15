@@ -4,8 +4,10 @@
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
-    background-color: #0c0f336c;
-    color: #1a0606;
+    background-image:linear-gradient(black, rgb(118, 112, 40), black); 
+    color: #130202;
+   
+    background-color: #130202;
   }
   
   .logo img {
@@ -23,7 +25,7 @@
   }
   
   .nav-links a {
-    color: #173f35b3;
+    color: #d9eae6b3;
     margin-left: 20px;
     text-decoration: none;
     font-weight: bold;
@@ -31,7 +33,7 @@
   }
   
   .nav-links a:hover {
-    color: #d0dbd5;
+    color: #bca91d;
   }
   
   .redesS1:hover{
