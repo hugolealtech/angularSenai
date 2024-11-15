@@ -2,9 +2,22 @@
 <form class="contact-form" (ngSubmit)="onSubmit()">
     <label for="name">Nome:</label>
     <input type="text" id="name" [(ngModel)]="name" name="name" required />
+
+    <label for="name">Telefone:</label>
+    <input type="number" id="name" [(ngModel)]="telefone" name="telefone" required />
+
+    <label for="name">Assunto:</label>
+    <input type="text" id="assunto" [(ngModel)]="assunto" name="assunto" required />
+  
   
     <label for="email">Email:</label>
-    <input type="email" id="email" [(ngModel)]="email" name="email" required />
+    <input type="email" id="email" [(ngModel)]="email" name="email" required  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}" 
+    #emailInput="ngModel" />
+
+    <div id="emailInvalido" *ngIf="emailInput.invalid && emailInput.touched" class="error">
+      <!-- Se e-mail inválido -->
+      O e-mail informado é inválido.
+    </div>
   
     <label for="message">Mensagem:</label>
     <textarea id="message" [(ngModel)]="message" name="message" required></textarea>

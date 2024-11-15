@@ -4,7 +4,7 @@
     flex-direction: column;
     gap: 15px;
     max-width: 500px;
-    margin: 0 auto;
+    margin: 0 auto;  
   }
   
   .contact-form label {
@@ -32,5 +32,9 @@
   
   .contact-form button:hover {
     background-color: #444;
+  }
+
+  #emailInvalido{
+    color: red;
   }
   

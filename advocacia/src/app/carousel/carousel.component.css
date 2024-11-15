@@ -3,7 +3,8 @@
   width: 100%;
   overflow: hidden;
   justify-content: center;
-  background-color: rgba(41, 23, 56);
+  background-color: rgb(255, 255, 255);
+  margin-top: 5px;
 }
 
 .carousel-slide {
@@ -21,7 +22,7 @@
 }
 
 .carousel-item img {
-  width: 70%;  
+  width: 50%;  
   justify-content: center;
   border-radius: 10px;
   
@@ -42,11 +43,11 @@
   color: #c9ed46;
   padding: 3px;
   font-size: 1rem;
-  transition: 1s;
+  transition: 1.5s;
 }
 .carousel-caption:hover {
   position: absolute;
-  bottom: 50px; /* Posiciona logo abaixo da imagem */
+  bottom: 50px; 
   left: 50%; /* Centraliza horizontalmente */
   transform: translateX(-50%); /* Ajusta o ponto de referência ao centro */
   display: flex;
@@ -54,7 +55,6 @@
   justify-content: center;
   flex-direction: column;
   width: 500px; /* Largura fixa */
-  height: 100px;
   text-align: center;
   background: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
   color: #c9ed46;

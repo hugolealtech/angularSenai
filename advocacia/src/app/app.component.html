@@ -1,5 +1,82 @@
 <app-header></app-header>
 <app-carousel></app-carousel>
 <app-faq></app-faq>
+
+<mat-accordion>
+
+    <!-- Título FAQ -->
+    <h1
+        style="margin: 50px; text-align: center; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: bolder; font-size: 30px;">
+        Dúvidas Frequentes
+    </h1>
+
+    <!-- Primeiro painel -->
+    <mat-expansion-panel style="margin-top: 50px">
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                <p style="margin-left: 30px;">
+                    Não sei se tenho Direito
+                </p>
+            </mat-panel-title>
+            <mat-panel-description>
+                <p> Se você ainda não sabe se tem Direito, clique aqui.</p>
+            </mat-panel-description>
+        </mat-expansion-panel-header>
+        <p>Se você não sabe se tem Direito, entre em contato com um de nossos advogados. Estamos sempre à disposição
+            para ajudar!</p>
+    </mat-expansion-panel>
+
+    <!-- Segundo painel -->
+    <mat-expansion-panel>
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                <p style="margin-left: 30px;">
+                    Descobri que tenho Direito
+                </p>
+            </mat-panel-title>
+            <mat-panel-description>
+                Se você descobriu que tem Direito, clique aqui!
+            </mat-panel-description>
+        </mat-expansion-panel-header>
+        <p>Se você descobriu que tem Direito, o próximo passo é o fechamento de contrato. O departamento de
+            fechamento de contrato lhe informará os honorários e as fases que seu processo tramitará.</p>
+    </mat-expansion-panel>
+
+    <!-- Terceiro painel -->
+    <mat-expansion-panel>
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                <p style="margin-left: 30px;">
+                    Sei que tenho Direito, o que fazer?
+                </p>
+            </mat-panel-title>
+            <mat-panel-description>
+                Se você descobriu que tem Direito, clique aqui!
+            </mat-panel-description>
+        </mat-expansion-panel-header>
+        <p>Se você sabe que tem Direito, a melhor atitude a se tomar é solicitar um agendamento com um advogado
+            especialista na sua área. Se não souber, nossa equipe direcionará você para o profissional certo!</p>
+    </mat-expansion-panel>
+
+    <!-- Quarto painel -->
+    <mat-expansion-panel>
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                <p style="margin-left: 30px;">
+                    Fechei o Contrato, e agora?
+                </p>
+            </mat-panel-title>
+            <mat-panel-description>
+                Se restou alguma dúvida após o fechamento do contrato, clique aqui!
+            </mat-panel-description>
+        </mat-expansion-panel-header>
+        <p>Para dar início ao seu processo, é necessário o endereço do réu, RG, CPF, comprovante de renda e documentos
+            que provem seu Direito, como contratos, fotos e comprovantes de pagamento.</p>
+    </mat-expansion-panel>
+
+</mat-accordion>
+
+<!-- Outros componentes -->
 <app-about-us></app-about-us>
 <app-contact-form></app-contact-form>
+<app-footer></app-footer>

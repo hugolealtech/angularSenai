@@ -1,0 +1,16 @@
+#footerComponent{
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(black,rgb(105, 105, 39),black);
+    margin-top: 20px;
+    color: wheat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+#footerComponent > a{
+    text-decoration: none;
+    color: rgb(173, 173, 219);
+}
