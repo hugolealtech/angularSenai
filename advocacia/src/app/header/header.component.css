@@ -4,24 +4,36 @@
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
-    background-color: #434cccb4;
-    color: #fff;
+    background-color: #0c0f336c;
+    color: #1a0606;
   }
   
   .logo img {
+    max-height: 40px;
+    border-radius: 100%;
+    margin: 0px 5px 0 0;
+    transition: 1s;
+  }
+
+  .logo img:hover {
     max-height: 50px;
     border-radius: 100%;
+    margin: 0px 5px 0 0;
+    transition: 1s;
   }
   
   .nav-links a {
-    color: #fff;
+    color: #173f35b3;
     margin-left: 20px;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.3s;
+    transition: color 0.6s;
   }
   
   .nav-links a:hover {
-    color: #ffdd57;
+    color: #d0dbd5;
   }
   
+  .redesS1:hover{
+    width: 10%;
+  }
