@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from "./header/header.component";
 import { CarouselComponent } from "./carousel/carousel.component.spec";
+import {FAQComponent} from "./faq/faq.component"
 import { AboutUsComponent } from "./about-us/about-us.component";
 import { ContactFormComponent } from "./contact-form/contact-form.component.spec";
 
@@ -13,7 +14,8 @@ import { ContactFormComponent } from "./contact-form/contact-form.component.spec
     HeaderComponent,
     CarouselComponent,
     AboutUsComponent,
-    ContactFormComponent
+    ContactFormComponent,
+    FAQComponent
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
