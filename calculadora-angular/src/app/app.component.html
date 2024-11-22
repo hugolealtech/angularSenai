@@ -1,16 +1,2 @@
-<div>
-  <h2>Calculadora Simples</h2>
-  <input [(ngModel)]="num1" type="number" placeholder="Número 1" />
-  <input [(ngModel)]="num2" type="number" placeholder="Número 2" />
-
-  <div>
-    <button (click)="calcular('soma')">+</button>
-    <button (click)="calcular('subtracao')">-</button>
-    <button (click)="calcular('multiplicacao')">*</button>
-    <button (click)="calcular('divisao')">/</button>
-    <button (click)="limpar()">Limpar</button>
-  </div>
-
-  <p *ngIf="resultado !== null">Resultado: {{ resultado }}</p>
-  <p *ngIf="mensagem">{{ mensagem }}</p>
-</div>
+<h1>{{ title }}</h1>
+<app-calculadora></app-calculadora>
